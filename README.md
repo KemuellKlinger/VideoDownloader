@@ -3,6 +3,8 @@
 
 Este projeto é um aplicativo simples para baixar vídeos do YouTube com uma interface gráfica. Utilizando a biblioteca `yt_dlp`, permite que os usuários insiram uma URL de vídeo, selecionem um diretório de download e baixem o vídeo diretamente para o computador, com uma barra de progresso indicando o andamento do download.
 
+Você pode baixar o executável do projeto clicando [aqui](https://github.com/user-attachments/files/17534987/VideoDownloader.zip).
+
 ## Funcionalidades
 
 - **Download de vídeos** do YouTube com escolha de diretório.
