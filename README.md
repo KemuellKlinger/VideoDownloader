@@ -24,8 +24,7 @@ Você pode baixar o executável do projeto clicando [aqui](https://github.com/us
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
-   cd nome-do-repositorio
+   git clone https://github.com/KemuellKlinger/VideoDownloader.git
    ```
 
 2. Instale o `yt_dlp`, se ainda não estiver instalado:
