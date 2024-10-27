@@ -16,7 +16,7 @@ class VideoDownloader:
         self.progress_label = None
         self.video_path = None
         self.ydl_opts = {
-            'format': 'best',
+            'format': 'bestvideo[height<=1080]+bestaudio/best[height<=1080]',
             'outtmpl': f"{janela.caminho_entrada.get()}/%(title)s.%(ext)s",
             'progress_hooks': [self.progress_hook]
         }

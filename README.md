@@ -1,4 +1,3 @@
-
 # YouTube Video Downloader
 
 Este projeto é um aplicativo simples para baixar vídeos do YouTube com uma interface gráfica. Utilizando a biblioteca `yt_dlp`, permite que os usuários insiram uma URL de vídeo, selecionem um diretório de download e baixem o vídeo diretamente para o computador, com uma barra de progresso indicando o andamento do download.
@@ -6,9 +5,6 @@ Este projeto é um aplicativo simples para baixar vídeos do YouTube com uma int
 ## Download
 
 Você pode baixar o executável do projeto clicando [aqui](https://github.com/user-attachments/files/17535180/VideoDownloader.zip).
-
-
-
 
 ## Funcionalidades
 
@@ -22,6 +18,7 @@ Você pode baixar o executável do projeto clicando [aqui](https://github.com/us
 - Bibliotecas necessárias:
   - `yt_dlp`: Biblioteca para download de vídeos do YouTube e outras plataformas de vídeo.
   - `tkinter`: Biblioteca padrão do Python para criação de interfaces gráficas.
+- **FFmpeg**: Para mesclar vídeo e áudio (requerido apenas em downloads que utilizam formatos separados).
 
 ## Instalação
 
@@ -31,15 +28,14 @@ Você pode baixar o executável do projeto clicando [aqui](https://github.com/us
    cd nome-do-repositorio
    ```
 
-2. Instale as dependências do Python:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Instale o `yt_dlp`, se ainda não estiver instalado:
+2. Instale o `yt_dlp`, se ainda não estiver instalado:
    ```bash
    pip install yt-dlp
    ```
+
+3. **Instale o FFmpeg**:
+   - **Linux**: Use o comando `sudo apt install ffmpeg` (ou o correspondente para sua distribuição).
+   - **Windows**: Siga as instruções de instalação [aqui](https://ffmpeg.org/download.html).
 
 ## Estrutura do Projeto
 
@@ -76,3 +72,4 @@ nome-do-repositorio/
 
 - `yt_dlp`: Para baixar vídeos de sites de hospedagem de vídeos.
 - `tkinter`: Para a interface gráfica.
+- `FFmpeg`: Para mesclar áudio e vídeo, caso necessário.
